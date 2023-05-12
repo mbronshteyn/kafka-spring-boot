@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ca3bde-5edb-45a4-af6d-7c69b0786633" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GitLink.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +98,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
@@ -101,6 +108,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "a255129fff46ee2f2e421d42d7c4afb2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -113,6 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683816705434</updated>
       <workItem from="1683816707183" duration="845000" />
+      <workItem from="1683911564996" duration="2138000" />
     </task>
     <servers />
   </component>
