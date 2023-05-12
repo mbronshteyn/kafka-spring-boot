@@ -24,7 +24,7 @@ public class LibraryEventsController {
 
         log.info("creating library event {}", libraryEvent);
 
-        libraryEventProducer.sendLibraryEvent(libraryEvent);
+        libraryEventProducer.sendLibraryEventProducerRecord(libraryEvent);
 
         return ResponseEntity.status(HttpStatus.CREATED.value())
                 .body(libraryEvent);
