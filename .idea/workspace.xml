@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ca3bde-5edb-45a4-af6d-7c69b0786633" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683816705434</updated>
       <workItem from="1683816707183" duration="845000" />
-      <workItem from="1683911564996" duration="6313000" />
+      <workItem from="1683911564996" duration="6749000" />
     </task>
     <task id="LOCAL-00001" summary="add unit test for the post method">
       <created>1684081293342</created>
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684081471443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Embeded Kafka to integration tests">
+      <created>1684083356174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684083356174</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +237,8 @@
     <MESSAGE value="add unit test for the post method" />
     <MESSAGE value="add integration test" />
     <MESSAGE value="add .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .idea" />
+    <MESSAGE value="add Embeded Kafka to integration tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Embeded Kafka to integration tests" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
