@@ -2,6 +2,7 @@ package com.mbronshteyn.kafkaeventproducer.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.mbronshteyn.kafkaeventproducer.domain.LibraryEvent;
+import com.mbronshteyn.kafkaeventproducer.domain.LibraryEventType;
 import com.mbronshteyn.kafkaeventproducer.producer.LibraryEventProducer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +25,7 @@ public class LibraryEventsController {
 
         log.info("creating library event {}", libraryEvent);
 
+        libraryEvent.setEventType(LibraryEventType.NEW);
         libraryEventProducer.sendLibraryEventProducerRecord(libraryEvent);
 
         return ResponseEntity.status(HttpStatus.CREATED.value())

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/kafka-spring-boot.iml" filepath="$PROJECT_DIR$/kafka-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafkaeventproducer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kafkaeventproducer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafkaeventproducer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kafkaeventproducer.test.iml" />
     </modules>
   </component>
 </project>

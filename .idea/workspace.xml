@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ca3bde-5edb-45a4-af6d-7c69b0786633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GitLink.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kafkaeventproducer.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/domain/LibraryEventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/domain/LibraryEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/domain/LibraryEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -87,6 +97,7 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -100,9 +111,12 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "/Users/michaelbronshteyn/study/kafka-spring-boot/kafkaeventproducer/src/test/java/intg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,6 +126,52 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mbronshteyn.kafkaeventproducer.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.LibraryEventsControllerIntegrationTest.postLibraryEvent">
+    <configuration name="LibraryEventsControllerIntegrationTest.postLibraryEvent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaeventproducer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mbronshteyn.kafkaeventproducer.controller.LibraryEventsControllerIntegrationTest.postLibraryEvent&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="KafkaeventproducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kafkaeventproducer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mbronshteyn.kafkaeventproducer.KafkaeventproducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest.postLibraryEvent" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -121,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683816705434</updated>
       <workItem from="1683816707183" duration="845000" />
-      <workItem from="1683911564996" duration="2138000" />
+      <workItem from="1683911564996" duration="5043000" />
     </task>
     <servers />
   </component>
