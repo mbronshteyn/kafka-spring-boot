@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ca3bde-5edb-45a4-af6d-7c69b0786633" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -126,7 +126,31 @@
       <recent name="com.mbronshteyn.kafkaeventproducer.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryEventsControllerIntegrationTest.postLibraryEvent">
+  <component name="RunManager" selected="Gradle.LibraryEventsControllerIntegrationTest">
+    <configuration name="LibraryEventsControllerIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaeventproducer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mbronshteyn.kafkaeventproducer.controller.LibraryEventsControllerIntegrationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LibraryEventsControllerIntegrationTest.postLibraryEvent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -160,6 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest" />
         <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest.postLibraryEvent" />
       </list>
     </recent_temporary>
@@ -173,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683816705434</updated>
       <workItem from="1683816707183" duration="845000" />
-      <workItem from="1683911564996" duration="5184000" />
+      <workItem from="1683911564996" duration="6313000" />
     </task>
     <task id="LOCAL-00001" summary="add unit test for the post method">
       <created>1684081293342</created>
@@ -182,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684081293342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add integration test">
+      <created>1684081409162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684081409162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add .idea">
+      <created>1684081471443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684081471443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +229,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add unit test for the post method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add unit test for the post method" />
+    <MESSAGE value="add integration test" />
+    <MESSAGE value="add .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
