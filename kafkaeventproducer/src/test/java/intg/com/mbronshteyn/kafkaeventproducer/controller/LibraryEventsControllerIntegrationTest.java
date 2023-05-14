@@ -42,6 +42,5 @@ class LibraryEventsControllerIntegrationTest {
 
         // verify
         Assertions.assertEquals(HttpStatus.CREATED,responseEntity.getStatusCode());
-
     }
 }

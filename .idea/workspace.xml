@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ca3bde-5edb-45a4-af6d-7c69b0786633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/kafkaeventproducer.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/domain/LibraryEventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/domain/LibraryEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/domain/LibraryEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,12 +173,24 @@
       <option name="presentableId" value="Default" />
       <updated>1683816705434</updated>
       <workItem from="1683816707183" duration="845000" />
-      <workItem from="1683911564996" duration="5043000" />
+      <workItem from="1683911564996" duration="5184000" />
     </task>
+    <task id="LOCAL-00001" summary="add unit test for the post method">
+      <created>1684081293342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684081293342</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add unit test for the post method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add unit test for the post method" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
