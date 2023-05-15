@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ca3bde-5edb-45a4-af6d-7c69b0786633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/unit/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -108,44 +107,48 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/michaelbronshteyn/study/kafka-spring-boot/kafkaeventproducer/src/test/java/intg&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;a255129fff46ee2f2e421d42d7c4afb2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "/Users/michaelbronshteyn/study/kafka-spring-boot/kafkaeventproducer/src/test/java/intg/com/mbronshteyn/kafkaeventproducer/controller",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "spring.configuration.checksum": "a255129fff46ee2f2e421d42d7c4afb2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mbronshteyn.kafkaeventproducer.controller" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.mbronshteyn.kafkaeventproducer.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mbronshteyn.kafkaeventproducer.controller.Test" />
       <module name="kafkaeventproducer.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mbronshteyn.kafkaeventproducer.controller.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +204,35 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="LibraryEventsControllerUnitTest.postLibraryEvent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaeventproducer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mbronshteyn.kafkaeventproducer.controller.LibraryEventsControllerUnitTest.postLibraryEvent&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LibraryEventsControllerIntegrationTest.postLibraryEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kafkaeventproducer.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mbronshteyn.kafkaeventproducer.controller.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,6 +253,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.LibraryEventsControllerIntegrationTest.postLibraryEvent" />
         <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest" />
@@ -249,7 +277,7 @@
       <workItem from="1684187932926" duration="865000" />
       <workItem from="1684189032433" duration="99000" />
       <workItem from="1684189149800" duration="589000" />
-      <workItem from="1684189760158" duration="28000" />
+      <workItem from="1684189760158" duration="2172000" />
     </task>
     <task id="LOCAL-00001" summary="add unit test for the post method">
       <created>1684081293342</created>
@@ -293,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684189534435</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="remove unused import">
+      <created>1684190022577</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684190022577</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +341,8 @@
     <MESSAGE value="add Embeded Kafka to integration tests" />
     <MESSAGE value="add README" />
     <MESSAGE value="add consumer to embedded kafka test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add consumer to embedded kafka test" />
+    <MESSAGE value="remove unused import" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused import" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
