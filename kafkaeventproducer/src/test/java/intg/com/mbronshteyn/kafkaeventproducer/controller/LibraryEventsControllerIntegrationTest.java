@@ -57,7 +57,7 @@ class LibraryEventsControllerIntegrationTest {
 
     @Test
     @Timeout(5)
-    void postLibraryEvent() throws InterruptedException, JsonProcessingException {
+    void postLibraryEvent() throws JsonProcessingException {
         //given
         Book book = Book.builder()
                 .bookId(123)
