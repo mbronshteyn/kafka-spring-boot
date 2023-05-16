@@ -46,7 +46,7 @@ class LibraryEventsControllerUnitTest {
                 .build();
 
         // mock
-        Mockito.doNothing().when(mockLibraryEventProducer).sendLibraryEventProducerRecord(libraryEvent);
+        Mockito.when(mockLibraryEventProducer.sendLibraryEventProducerRecord(libraryEvent)).thenReturn(any());
 
         String libraryEventPayload = objectMapper.writeValueAsString(libraryEvent);
 
@@ -67,9 +67,6 @@ class LibraryEventsControllerUnitTest {
                 .libraryEventId(null)
                 .book(null)
                 .build();
-
-        // mock
-        Mockito.doNothing().when(mockLibraryEventProducer).sendLibraryEventProducerRecord(libraryEvent);
 
         String libraryEventPayload = objectMapper.writeValueAsString(libraryEvent);
 
@@ -95,12 +92,9 @@ class LibraryEventsControllerUnitTest {
                 .book(book)
                 .build();
 
-        // mock
-        Mockito.doNothing().when(mockLibraryEventProducer).sendLibraryEventProducerRecord(libraryEvent);
-
         String libraryEventPayload = objectMapper.writeValueAsString(libraryEvent);
 
-        String expectedErrorMessage = "book - must not be null";
+        String expectedErrorMessage = "book.bookAuthor - must not be blank";
 
         mockMvc.perform(
                         post("/v1/libraryevent")
