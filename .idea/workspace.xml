@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4ca3bde-5edb-45a4-af6d-7c69b0786633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/unit/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducerUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/unit/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/unit/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/unit/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/unit/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducerUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,8 +146,8 @@
       <recent name="com.mbronshteyn.kafkaeventproducer.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent_4xx_BookIsNull">
-    <configuration name="LibraryEventsControllerIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LibraryEventProducerUnitTest.sendLibraryEvent_ProducerRecord_failure">
+    <configuration name="LibraryEventProducerUnitTest.sendLibraryEvent_ProducerRecord_failure" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaeventproducer" />
@@ -161,7 +160,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mbronshteyn.kafkaeventproducer.controller.LibraryEventsControllerIntegrationTest&quot;" />
+            <option value="&quot;com.mbronshteyn.kafkaeventproducer.producer.LibraryEventProducerUnitTest.sendLibraryEvent_ProducerRecord_failure&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,7 +171,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryEventsControllerIntegrationTest.postLibraryEvent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryEventProducerUnitTest.testSendLibraryEventProducerRecord_Failure" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaeventproducer" />
@@ -185,7 +184,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mbronshteyn.kafkaeventproducer.controller.LibraryEventsControllerIntegrationTest.postLibraryEvent&quot;" />
+            <option value="&quot;com.mbronshteyn.kafkaeventproducer.producer.LibraryEventProducerUnitTest.testSendLibraryEventProducerRecord_Failure&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -286,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryEventProducerUnitTest.sendLibraryEvent_ProducerRecord_failure" />
+        <item itemvalue="Gradle.LibraryEventProducerUnitTest.testSendLibraryEventProducerRecord_Failure" />
         <item itemvalue="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent_4xx_BookIsNull" />
         <item itemvalue="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent_4xx_BookAuthorIsNull" />
         <item itemvalue="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent_4xx" />
-        <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest.postLibraryEvent" />
-        <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +309,7 @@
       <workItem from="1684187932926" duration="865000" />
       <workItem from="1684189032433" duration="99000" />
       <workItem from="1684189149800" duration="589000" />
-      <workItem from="1684189760158" duration="10312000" />
+      <workItem from="1684189760158" duration="13451000" />
     </task>
     <task id="LOCAL-00001" summary="add unit test for the post method">
       <created>1684081293342</created>
@@ -403,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684263083300</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix unit tests">
+      <created>1684275265634</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684275265635</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +429,8 @@
     <MESSAGE value="add 4xx test" />
     <MESSAGE value="add 4xx test - book author is null" />
     <MESSAGE value="add exception advice" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exception advice" />
+    <MESSAGE value="fix unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix unit tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -444,6 +451,16 @@
           <url>file://$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsController.java</url>
           <line>30</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducer.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/producer/LibraryEventProducer.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

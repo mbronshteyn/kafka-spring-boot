@@ -133,5 +133,7 @@ public class LibraryEventProducer {
                 key, value, result.getRecordMetadata().partition());
     }
 
-
+    public void setLibraryEventsTopic(String libraryEventsTopic) {
+        this.libraryEventsTopic = libraryEventsTopic;
+    }
 }
