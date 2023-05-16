@@ -60,11 +60,38 @@ class LibraryEventsControllerUnitTest {
     }
 
     @Test
-    void postLibraryEvent_4xx() throws Exception {
+    void postLibraryEvent_4xx_BookIsNull() throws Exception {
         //given
         LibraryEvent libraryEvent = LibraryEvent.builder()
                 .libraryEventId(null)
                 .book(null)
+                .build();
+
+        // mock
+        Mockito.doNothing().when(mockLibraryEventProducer).sendLibraryEventProducerRecord(libraryEvent);
+
+        String libraryEventPayload = objectMapper.writeValueAsString(libraryEvent);
+
+        mockMvc.perform(
+                        post("/v1/libraryevent")
+                                .content(libraryEventPayload)
+                                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().is4xxClientError());
+    }
+
+    @Test
+    void postLibraryEvent_4xx_BookAuthorIsNull() throws Exception {
+
+        Book book = Book.builder()
+                .bookId(123)
+                .bookAuthor(null)
+                .bookName("Kafka using Spring Boot")
+                .build();
+
+        //given
+        LibraryEvent libraryEvent = LibraryEvent.builder()
+                .libraryEventId(null)
+                .book(book)
                 .build();
 
         // mock

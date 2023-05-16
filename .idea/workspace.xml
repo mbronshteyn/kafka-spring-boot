@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4ca3bde-5edb-45a4-af6d-7c69b0786633" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/domain/LibraryEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/main/java/com/mbronshteyn/kafkaeventproducer/domain/LibraryEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/unit/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaeventproducer/src/test/java/unit/com/mbronshteyn/kafkaeventproducer/controller/LibraryEventsControllerUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/kafkaeventproducer">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -142,7 +146,7 @@
       <recent name="com.mbronshteyn.kafkaeventproducer.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent_4xx">
+  <component name="RunManager" selected="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent_4xx_BookAuthorIsNull">
     <configuration name="LibraryEventsControllerIntegrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,30 +195,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryEventsControllerUnitTest.postLibraryEvent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaeventproducer" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.mbronshteyn.kafkaeventproducer.controller.LibraryEventsControllerUnitTest.postLibraryEvent&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="LibraryEventsControllerUnitTest.postLibraryEvent_4xx" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -229,6 +209,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.mbronshteyn.kafkaeventproducer.controller.LibraryEventsControllerUnitTest.postLibraryEvent_4xx&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryEventsControllerUnitTest.postLibraryEvent_4xx_BookAuthorIsNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaeventproducer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.mbronshteyn.kafkaeventproducer.controller.LibraryEventsControllerUnitTest.postLibraryEvent_4xx_BookAuthorIsNull&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -279,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent_4xx_BookAuthorIsNull" />
         <item itemvalue="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent_4xx" />
         <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest.postLibraryEvent" />
         <item itemvalue="Gradle.LibraryEventsControllerIntegrationTest" />
         <item itemvalue="Gradle.Tests in 'kafkaeventproducer.test'" />
-        <item itemvalue="Gradle.LibraryEventsControllerUnitTest.postLibraryEvent" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +307,7 @@
       <workItem from="1684187932926" duration="865000" />
       <workItem from="1684189032433" duration="99000" />
       <workItem from="1684189149800" duration="589000" />
-      <workItem from="1684189760158" duration="6589000" />
+      <workItem from="1684189760158" duration="7045000" />
     </task>
     <task id="LOCAL-00001" summary="add unit test for the post method">
       <created>1684081293342</created>
@@ -375,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684257565297</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add 4xx test">
+      <created>1684260898071</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684260898072</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +403,8 @@
     <MESSAGE value="add unit test to controller using MockMVC" />
     <MESSAGE value="add validation" />
     <MESSAGE value="regenerate gradle wrapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="regenerate gradle wrapper" />
+    <MESSAGE value="add 4xx test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 4xx test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
