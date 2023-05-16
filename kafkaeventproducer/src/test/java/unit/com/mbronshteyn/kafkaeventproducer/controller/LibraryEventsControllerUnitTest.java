@@ -58,4 +58,24 @@ class LibraryEventsControllerUnitTest {
         Mockito.verify(mockLibraryEventProducer, times(1))
                 .sendLibraryEventProducerRecord(any(LibraryEvent.class));
     }
+
+    @Test
+    void postLibraryEvent_4xx() throws Exception {
+        //given
+        LibraryEvent libraryEvent = LibraryEvent.builder()
+                .libraryEventId(null)
+                .book(null)
+                .build();
+
+        // mock
+        Mockito.doNothing().when(mockLibraryEventProducer).sendLibraryEventProducerRecord(libraryEvent);
+
+        String libraryEventPayload = objectMapper.writeValueAsString(libraryEvent);
+
+        mockMvc.perform(
+                        post("/v1/libraryevent")
+                                .content(libraryEventPayload)
+                                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().is4xxClientError());
+    }
 }
