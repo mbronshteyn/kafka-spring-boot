@@ -55,6 +55,7 @@ class LibraryEventsControllerUnitTest {
                                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isCreated());
 
-        Mockito.verify(mockLibraryEventProducer, times(1)).sendLibraryEventProducerRecord(any(LibraryEvent.class));
+        Mockito.verify(mockLibraryEventProducer, times(1))
+                .sendLibraryEventProducerRecord(any(LibraryEvent.class));
     }
 }

@@ -24,9 +24,11 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	implementation 'ch.qos.logback:logback-classic'
+	implementation 'javax.validation:validation-api:2.0.1.Final'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
-		exclude group : 'org.junit.vintage', module: 'junit-vintage-engine'
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	testImplementation 'org.springframework.kafka:spring-kafka-test'
 }
