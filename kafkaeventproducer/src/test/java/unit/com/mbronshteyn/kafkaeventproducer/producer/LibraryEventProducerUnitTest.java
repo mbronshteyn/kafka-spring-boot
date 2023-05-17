@@ -104,5 +104,4 @@ public class LibraryEventProducerUnitTest {
         // we cn do more asserts
         Assertions.assertEquals(testPartiion, sendResultActual.getRecordMetadata().partition());
     }
-
 }
